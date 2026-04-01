@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ramya's Choco Delight</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #fff8f5;
+      color: #4a2c2a;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #6b3e26, #b76e4c);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background: #fff;
+      color: #6b3e26;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #6b3e26;
+      font-size: 2rem;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .price {
+      color: #b76e4c;
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    .about {
+      text-align: center;
+      max-width: 700px;
+    }
+
+    .contact {
+      background: #6b3e26;
+      color: white;
+      border-radius: 20px;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #4a2c2a;
+      color: white;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ramya's Choco Delight</h1>
+    <p>Homemade Chocolates • Dates Delight • Kunafa Bites</p>
+    <a class="btn" href="#products">View Products</a>
+  </header>
+
+  <section id="products">
+    <h2>Our Special Products</h2>
+    <div class="products">
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&w=800&q=80" alt="Dates Delight">
+        <div class="card-content">
+          <h3>Dates Delight</h3>
+          <p>Premium dates filled with nuts and coated in rich chocolate.</p>
+          <div class="price">₹250 / Box</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1549007994-cb92caebd54b?auto=format&fit=crop&w=800&q=80" alt="Kunafa Bites">
+        <div class="card-content">
+          <h3>Kunafa Bites</h3>
+          <p>Crispy kunafa bites with creamy filling and chocolate topping.</p>
+          <div class="price">₹300 / Box</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=800&q=80" alt="Homemade Chocolates">
+        <div class="card-content">
+          <h3>Homemade Chocolates</h3>
+          <p>Assorted handcrafted chocolates perfect for gifts and celebrations.</p>
+          <div class="price">₹200 / Box</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="about">
+    <h2>About Us</h2>
+    <p>
+      Welcome to Ramya's Choco Delight! We make fresh homemade chocolates,
+      delicious Dates Delight, and special Kunafa Bites with premium ingredients.
+      Every order is prepared with care and love.
+    </p>
+  </section>
+
+  <section>
+    <div class="contact">
+      <h2>Contact & Orders</h2>
+      <p>Phone: +91 6305713260</p>
+      <p>WhatsApp: +91 6305713260</p>
+      <p>Email: yourmail@example.com</p>
+      <br>
+      <a class="btn" href="https://wa.me/916305713260">Order on WhatsApp</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Ramya's Choco Delight. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
